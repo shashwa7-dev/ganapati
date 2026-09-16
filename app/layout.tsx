@@ -27,13 +27,13 @@ const caveat = Caveat({
 });
 
 // The canonical origin used to resolve absolute URLs for OG/Twitter tags.
-// Defaults to the production domain; override with NEXT_PUBLIC_SITE_URL, and
-// falls back to localhost in development.
-const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ??
-  (process.env.NODE_ENV === "production"
-    ? "https://ganapatibappamoraya.shashwa7.in"
-    : "http://localhost:3000");
+// Set NEXT_PUBLIC_SITE_URL to your custom domain; on Vercel it otherwise falls
+// back to the production deployment URL, and to localhost in development.
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL
+  ? process.env.NEXT_PUBLIC_SITE_URL
+  : process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : "http://localhost:3000";
 
 const TITLE = "Ganapati — One hundred and eight forms of Ganesha";
 const DESCRIPTION =

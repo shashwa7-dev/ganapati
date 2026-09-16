@@ -1,0 +1,112 @@
+[
+  {
+    "slot": "home",
+    "src": "/photographs/home.avif",
+    "width": 1280,
+    "height": 960,
+    "alt": "A Ganesha murti installed at home for Ganesh Chaturthi, with lamps, fruit, a kalash and a plate of modak.",
+    "caption": "Ganpati at home",
+    "credit": "TheMacGuy2005 · CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ganesh_Chaturthi_2021.jpg",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAALAA4DASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAIF/8QAHRABAAICAwEBAAAAAAAAAAAAAQIRAyEABBIiYf/EABQBAQAAAAAAAAAAAAAAAAAAAAL/xAAXEQEAAwAAAAAAAAAAAAAAAAAAATFB/9oADAMBAAIRAxEAPwBHdjSMZ+mcrSTqNHD9OZOclqmJobrmUZpxlHY+nfqI39fvJM+QzZEQfSaA1wRZY//Z"
+  },
+  {
+    "slot": "welcome",
+    "src": "/photographs/welcome.avif",
+    "width": 1920,
+    "height": 2550,
+    "alt": "A Ganesha murti garlanded with marigold and jasmine during Ganesh Chaturthi.",
+    "caption": "Garlanded and welcomed",
+    "credit": "Ashish Suryavanshi858 · CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ganesh_chaturthi_puja_01.jpg",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAATAA4DASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAF/8QAIRAAAgICAQQDAAAAAAAAAAAAAQMCEQAEIQUSMUEGIlH/xAAWAQEBAQAAAAAAAAAAAAAAAAAEAgP/xAAaEQADAQADAAAAAAAAAAAAAAAAAQIRAyEx/9oADAMBAAIRAxEAPwDCasSbUj28jyPWbnxVN7zbqVK4NerFYPd+hnajcJmJMfPusX0VcIOK9rvuK7BUDzdHmsNL3B3JS1gSyUi4k2TIYzV2Go6i6SpmBK4g1+UMssjxGNd3On//2Q=="
+  },
+  {
+    "slot": "darshan",
+    "src": "/photographs/darshan.avif",
+    "width": 1920,
+    "height": 1440,
+    "alt": "The Lalbaugcha Raja idol outside its pandal in Lalbaug, Mumbai.",
+    "caption": "Lalbaugcha Raja, outside the pandal at Lalbaug",
+    "credit": "Karthik Nadar · CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lalbaugcha_Raja_just_outside_its_Pandal_at_Lalgaug,_Mumbai.JPG",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAALAA4DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIDBf/EAB4QAAICAgMBAQAAAAAAAAAAAAECAxEABAUSITGh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAYEQADAQEAAAAAAAAAAAAAAAAAARECUf/aAAwDAQACEQMRAD8AlxUcR42Xs3UiQMSBZIrz9wnlJtNlePqpZar75mdrzOusEBpSTYAxpfNtloV1Boi8DTtL5ypOn//Z"
+  },
+  {
+    "slot": "tilak",
+    "src": "/photographs/tilak.avif",
+    "width": 432,
+    "height": 464,
+    "alt": "Portrait photograph of Lokmanya Bal Gangadhar Tilak.",
+    "caption": "Lokmanya Bal Gangadhar Tilak",
+    "credit": "Unknown author · Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Bal_Gangadhar_Tilak_crop.jpg",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAPAA4DASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAgT/xAAfEAACAgIBBQAAAAAAAAAAAAABAgADESFRBRIiMUH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ALOrVuWqZbHUYIAUkb51L6BYtFa2t32BQGbkwWBi3kBo6Mdalc59fBID/9k="
+  },
+  {
+    "slot": "lalbaugcha-raja",
+    "src": "/photographs/lalbaugcha-raja.avif",
+    "width": 1920,
+    "height": 2482,
+    "alt": "The Lalbaugcha Raja murti, crowned and richly ornamented, seated before a carved backdrop.",
+    "caption": "Lalbaugcha Raja",
+    "credit": "NatePowell · CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lalbaugh_Ganesha.jpg",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAASAA4DASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwQA/8QAJhAAAgEDAgQHAAAAAAAAAAAAAQIDAAQREiEFIzFxEzNhkbHR8f/EABYBAQEBAAAAAAAAAAAAAAAAAAEDBP/EABgRAQEAAwAAAAAAAAAAAAAAAAEAESEy/9oADAMBAAIRAxEAPwCCyjBu9MiiVNOxxlU/cVOYXVpAymNQ2QjHBGd/iqOHzhhLrbMabiMrsc9c0NxdDxArty0GlBjp3rKO0rZIrM8mf1DZ9qC58wdvqtWpO2C//9k="
+  },
+  {
+    "slot": "raja-alt",
+    "src": "/photographs/raja-alt.avif",
+    "width": 1807,
+    "height": 2407,
+    "alt": "The Lalbaugcha Raja idol garlanded during Ganeshotsav in Mumbai.",
+    "caption": "Lalbaugcha Raja during Ganeshotsav",
+    "credit": "myriad ways · CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lalbaugcha_Raja.jpg",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAATAA4DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EACMQAAIBAwMEAwAAAAAAAAAAAAECAAMREgQhMQUTQVFScZH/xAAVAQEBAAAAAAAAAAAAAAAAAAADBP/EABoRAAICAwAAAAAAAAAAAAAAAAABETECEjL/2gAMAwEAAhEDEQA/AMFUq1F4sPZ2jV0ZQ3qrkp4ANptdPoXXJ1RqYBAB9+LxOuKEp22KlRi2BBAP3JN5cIrcuybQHAVMfgx/JJSYkkE7He3i8IRlQWXR/9k="
+  },
+  {
+    "slot": "procession",
+    "src": "/photographs/procession.avif",
+    "width": 1920,
+    "height": 1973,
+    "alt": "Lalbaugcha Raja carried through the streets of Mumbai on the way to immersion.",
+    "caption": "On the way to visarjan",
+    "credit": "Karthik Nadar · CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lalbaugcha_Raja_on_its_way_for_viserjan.JPG",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAOAA4DASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAX/xAAlEAABAwIFBAMAAAAAAAAAAAABAgMRAAQSEyExQQUiUWFikdH/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAh/9oADAMBAAIRAxEAPwCb0pLNs628+gLKiQhJO3y/KdeWaHVoFu+MRBK8ZjWfP1UIXWatpuCABG/MzSHrtLhThzEmO7Xn1R2YCX//2Q=="
+  },
+  {
+    "slot": "murti",
+    "src": "/photographs/murti.avif",
+    "width": 1920,
+    "height": 1200,
+    "alt": "Rows of unpainted clay Ganesha murtis drying in a workshop.",
+    "caption": "Clay murtis, waiting",
+    "credit": "abcdz2000 · CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ganesh_clay_images.jpg",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJAA4DASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAwH/xAAfEAABAwQDAQAAAAAAAAAAAAABAAIDBBExMxJxsUH/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAExYf/aAAwDAQACEQMRAD8As1OGshlNiRk2yjnJ5OcCb3GPqWt1P6b6EFTsPTfEeKMx/9k="
+  },
+  {
+    "slot": "visarjan",
+    "src": "/photographs/visarjan.avif",
+    "width": 1920,
+    "height": 1147,
+    "alt": "Devotees carrying a Ganesha idol into the water at Futala lake for visarjan.",
+    "caption": "Visarjan at Futala lake, Nagpur",
+    "credit": "Chetan Gole from Nagpur, India · CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ganesh_Visarjan_at_Futala_by_Chetan_Gole.jpg",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAIAA4DASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAeEAACAgICAwAAAAAAAAAAAAABAwIRACESIlFx8f/EABQBAQAAAAAAAAAAAAAAAAAAAAL/xAAXEQADAQAAAAAAAAAAAAAAAAAAARIh/9oADAMBAAIRAxEAPwCxz3GMRCPXmNg7r7liXOthcYgWOAHit793jGGnbDkI/9k="
+  },
+  {
+    "slot": "modak",
+    "src": "/photographs/modak.avif",
+    "width": 1920,
+    "height": 2428,
+    "alt": "A plate of steamed ukadiche modak, the sweet offered to Ganesha.",
+    "caption": "Ukadiche modak",
+    "credit": "Dhondudagde · CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E0%A4%89%E0%A4%95%E0%A4%A1%E0%A5%80%E0%A4%9A%E0%A5%87_%E0%A4%AE%E0%A5%8B%E0%A4%A6%E0%A4%95%E0%A5%A8.jpg",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAASAA4DASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAUA/8QAIhAAAgEEAQQDAAAAAAAAAAAAAQIRAAMEEiEFEzJRFSJC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/xAAZEQACAwEAAAAAAAAAAAAAAAAAAQIREjH/2gAMAwEAAhEDEQA/AJitdyirjZlJidYE0fqdt7DrHlyCImrmfYW1ld0M+giU/LR7FCyMX5Qs4AtjaYHuKHa6Pl1RYyPM0DOOlm2yfViYJHBNatU8Rmf/2Q=="
+  }
+]

@@ -4,7 +4,7 @@ import { LEAD_ID, artworkById, chapters, hangingOrder, total } from "@/lib/colle
 import { inWordsCapitalised } from "@/lib/words";
 
 export const metadata: Metadata = {
-  title: "Ganapati",
+  // title inherits the layout default ("Ganapati — One hundred and eight …")
   description: `${inWordsCapitalised(total)} forms of Ganesha, drawn one at a time and hung in the artist's own sketchbook.`,
 };
 

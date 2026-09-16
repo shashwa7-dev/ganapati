@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Archivo, Caveat, Cormorant_Garamond } from "next/font/google";
 import { FluteProvider } from "@/lib/flute";
 import { Splash } from "@/components/sketchbook/Splash";
@@ -26,10 +26,75 @@ const caveat = Caveat({
   display: "swap",
 });
 
+// The canonical origin used to resolve absolute URLs for OG/Twitter tags.
+// Set NEXT_PUBLIC_SITE_URL to your custom domain; on Vercel it otherwise falls
+// back to the production deployment URL, and to localhost in development.
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL
+  ? process.env.NEXT_PUBLIC_SITE_URL
+  : process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : "http://localhost:3000";
+
+const TITLE = "Ganapati — One hundred and eight forms of Ganesha";
+const DESCRIPTION =
+  "An exhibition of studies of Ganesha: posture, material, trunk, companion and offering, catalogued and hung in the artist's own sketchbook.";
+
 export const metadata: Metadata = {
-  title: "Ganapati",
-  description:
-    "An exhibition of studies of Ganesha: posture, material, trunk, companion and offering, catalogued and hung.",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: TITLE,
+    template: "%s — Ganapati",
+  },
+  description: DESCRIPTION,
+  applicationName: "Ganapati",
+  authors: [{ name: "shashwa7", url: "https://shashwa7.in" }],
+  creator: "shashwa7",
+  publisher: "shashwa7",
+  category: "art",
+  keywords: [
+    "Ganapati",
+    "Ganesha",
+    "Ganesh",
+    "Ganesh Chaturthi",
+    "Ganpati Bappa Morya",
+    "Ganeshotsav",
+    "108 forms of Ganesha",
+    "Hindu art",
+    "illustration",
+    "sketchbook",
+  ],
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    siteName: "Ganapati",
+    title: TITLE,
+    description:
+      "One hundred and eight forms of Ganesha, drawn one at a time and hung in the artist's own sketchbook.",
+    url: "/",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description:
+      "One hundred and eight forms of Ganesha, drawn one at a time and hung in the artist's own sketchbook.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#f4ead8",
+  colorScheme: "light",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

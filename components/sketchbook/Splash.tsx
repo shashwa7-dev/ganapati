@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { Confetti } from "@/components/sketchbook/Confetti";
 import { Logo } from "@/components/sketchbook/Logo";
 
-const MIN_MS = 2700; // the mark draws, the name and the chant write on, then we go
+const MIN_MS = 2700; // the mark draws, the name and the chant fade in, then we go
 const MAX_MS = 4000;
 const LEAVE_MS = 600;
 const CONFETTI_MS = 3400;
@@ -95,7 +95,7 @@ export function Splash() {
       <div className="sk-splash-card">
         <Logo className="sk-logo sk-splash-logo" />
         <p className="sk-splash-name sk-hand-display">Ganapati</p>
-        <p className="sk-splash-chant sk-hand-subhead" lang="mr-Latn">Ganpati Bappa Morya</p>
+        <p className="sk-splash-chant sk-hand-subhead" lang="mr-Latn">Bappa Morya</p>
       </div>
     </div>
   );

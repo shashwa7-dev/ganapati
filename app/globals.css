@@ -587,6 +587,16 @@ body {
   color: var(--color-ink-soft);
 }
 
+/* the credit line sits on its own row, centred under the sign-off */
+.sk-signoff-credit { flex-basis: 100%; text-align: center; color: var(--color-ink-faint); }
+.sk-signoff-credit a {
+  color: var(--color-terracotta);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  transition: color 300ms var(--ease-gallery);
+}
+.sk-signoff-credit a:hover { color: var(--color-sindoor); }
+
 /* --- festival doodles ------------------------------------------------------
    A scatter of small line drawings behind each section, in the note ink. */
 
@@ -981,9 +991,10 @@ body {
 @keyframes sk-draw { to { stroke-dashoffset: 0; } }
 @keyframes sk-appear { to { opacity: 1; } }
 
-/* the name writes on after the mark */
-.sk-splash-name { margin: 0; transform: rotate(-1.5deg); clip-path: inset(0 100% 0 0); animation: sk-write-on 700ms var(--ease-gallery) 700ms forwards; }
-.sk-splash-chant { margin: 0; color: var(--color-terracotta); transform: rotate(1deg); clip-path: inset(0 100% 0 0); animation: sk-write-on 900ms var(--ease-gallery) 1500ms forwards; }
+/* the name and chant fade in after the mark (a plain fade, so the words are
+   never caught half-drawn — the write-on could clip the last letter) */
+.sk-splash-name { margin: 0; transform: rotate(-1.5deg); opacity: 0; animation: sk-appear 500ms var(--ease-gallery) 800ms forwards; }
+.sk-splash-chant { margin: 0; color: var(--color-terracotta); transform: rotate(1deg); font-size: var(--text-hand-heading); opacity: 0; animation: sk-appear 500ms var(--ease-gallery) 1150ms forwards; }
 
 @keyframes sk-write-on { to { clip-path: inset(0 0 0 0); } }
 
@@ -999,8 +1010,8 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .sk-splash-logo .sk-logo-ink path { stroke-dashoffset: 0; animation: none; }
   .sk-splash-logo .sk-logo-eye, .sk-splash-logo .sk-logo-jewel, .sk-splash-logo .sk-logo-tilak { opacity: 1; animation: none; }
-  .sk-splash-name { clip-path: none; animation: none; }
-  .sk-splash-chant { clip-path: none; animation: none; }
+  .sk-splash-name { opacity: 1; animation: none; }
+  .sk-splash-chant { opacity: 1; animation: none; }
 }
 
 /* --- the hundred and eight names ------------------------------------------- */
@@ -1037,8 +1048,23 @@ body {
 .sk-names-name { color: var(--color-ink); }
 .sk-names-meaning { grid-column: 2; color: var(--color-ink-soft); font-size: var(--text-serif-small); line-height: 1.35; }
 
-/* the story reads narrower, and its doodles live in the margins beside it */
-.sk-wall--story { max-width: 1100px; }
+/* the story shares the sketchbook's width; its prose stays narrow via inner
+   caps, and its doodles live in the margins beside it */
+.sk-wall--story { max-width: var(--wall-sketch); }
+
+/* the story keeps its motion simple: chapters arrive with a plain fade and a
+   small rise (no swing, no overshoot), and the art holds still (no parallax) */
+.sk-wall--story .sk-swing { transform: translateY(12px); }
+.sk-wall--story .sk-swing.is-in {
+  transform: none;
+  transition:
+    opacity 450ms var(--ease-gallery),
+    transform 450ms var(--ease-gallery);
+}
+.sk-wall--story .sk-px {
+  transform: rotate(var(--rot, 0deg));
+  will-change: auto;
+}
 .sk-story-wide { margin-top: var(--space-6); }
 
 /* --- the story's opening art ------------------------------------------------

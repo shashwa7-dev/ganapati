@@ -1,5 +1,16 @@
 import { ImageResponse } from "next/og";
 import { ART_1, ART_2, ART_3 } from "./og-assets/art";
+import { CAVEAT_400_B64, CAVEAT_700_B64 } from "./og-assets/fonts";
+
+// Caveat is the site's handwriting face (--font-hand); decode it for Satori.
+function b64ToArrayBuffer(b64: string): ArrayBuffer {
+  const bin = atob(b64);
+  const bytes = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  return bytes.buffer;
+}
+const CAVEAT_400 = b64ToArrayBuffer(CAVEAT_400_B64);
+const CAVEAT_700 = b64ToArrayBuffer(CAVEAT_700_B64);
 
 // The shared social preview: three drawings from the catalogue, taped up beside
 // the title on clay paper.
@@ -74,6 +85,7 @@ export default function OpengraphImage() {
           backgroundColor: "#f4ead8",
           color: "#3b2a20",
           position: "relative",
+          fontFamily: "Caveat",
         }}
       >
         <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: "10px", backgroundColor: "#b8532f", display: "flex" }} />
@@ -90,18 +102,18 @@ export default function OpengraphImage() {
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={MARK_URI} width={92} height={92} alt="" style={{ marginBottom: "18px" }} />
-          <div style={{ fontSize: "92px", fontWeight: 700, letterSpacing: "-2px", lineHeight: 1, display: "flex" }}>
+          <div style={{ fontSize: "128px", fontWeight: 700, lineHeight: 0.9, display: "flex" }}>
             Ganapati
           </div>
-          <div style={{ fontSize: "34px", color: "#5b5249", marginTop: "18px", lineHeight: 1.15, display: "flex" }}>
+          <div style={{ fontSize: "46px", fontWeight: 600, color: "#5b5249", marginTop: "6px", lineHeight: 1.05, display: "flex" }}>
             One hundred and eight forms of Ganesha
           </div>
-          <div style={{ fontSize: "24px", color: "#8d857a", marginTop: "14px", display: "flex" }}>
+          <div style={{ fontSize: "32px", color: "#8d857a", marginTop: "12px", display: "flex" }}>
             drawn one at a time, hung in a sketchbook
           </div>
-          <div style={{ display: "flex", marginTop: "40px", fontSize: "24px" }}>
+          <div style={{ display: "flex", marginTop: "38px", fontSize: "32px" }}>
             <span style={{ color: "#b8532f", display: "flex" }}>Ganpati Bappa Morya</span>
-            <span style={{ color: "#8d857a", display: "flex", marginLeft: "22px" }}>· shashwa7.in</span>
+            <span style={{ color: "#8d857a", display: "flex", marginLeft: "24px" }}>shashwa7.in</span>
           </div>
         </div>
 
@@ -113,6 +125,12 @@ export default function OpengraphImage() {
         </div>
       </div>
     ),
-    { ...size },
+    {
+      ...size,
+      fonts: [
+        { name: "Caveat", data: CAVEAT_400, weight: 400, style: "normal" },
+        { name: "Caveat", data: CAVEAT_700, weight: 700, style: "normal" },
+      ],
+    },
   );
 }

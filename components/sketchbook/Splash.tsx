@@ -40,6 +40,8 @@ export function Splash() {
       left = true;
       window.clearTimeout(timer);
       window.clearTimeout(cap);
+      // let the page know the sheet is lifting, so the garland drops in on cue
+      document.documentElement.classList.add("sk-entered");
       setPhase("leaving");
       leaveTimer = window.setTimeout(() => {
         if (cancelled) return;
